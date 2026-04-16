@@ -4,12 +4,6 @@ import requests
 st.set_page_config("PragyanAI Image Generator", layout="wide")
 st.title("PragyanAI – Text to Image Generator")
 
-# Logo (optional)
-try:
-    st.image("PragyanAI_Transperent.jpg")
-except:
-    st.warning("Logo not found")
-
 # User Inputs
 prompt = st.text_input("Enter your image prompt")
 
